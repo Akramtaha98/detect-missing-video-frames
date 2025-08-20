@@ -36,9 +36,9 @@ To respect the constraint, the implementation walks from 1..max(frames) using a 
 - **Time:** `O(n + T)` where `n = len(frames)` and `T = max(frames)`
 - **Space:** `O(n)`
 
-## Tests
+## Test
 ```bash
-python -m unittest -v
+python find_missing_ranges.py 1 2 3 5 6 10 11 15
 ```
 
 ## Notes
